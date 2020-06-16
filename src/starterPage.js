@@ -2,11 +2,13 @@ const starterPage = () => {
   // Lets grab the main containter
   const content = document.getElementById('main-container');
 
+  //   Array of topics for tab
+  const arrayOfSubjects = ['MENU', 'ABOUT', 'CONTACT'];
+
   // Lets create tags for the page
   const title = document.createElement('h1');
   const subTitle = document.createElement('h4');
   const tab = document.createElement('ul');
-  const arrayOfSubjects = ['MENU', 'ABOUT', 'CONTACT'];
   const tabContent = document.createElement('div');
 
   //   Dynamically set attributes for links
@@ -34,6 +36,7 @@ const starterPage = () => {
 
         break;
       case 1:
+        //   Set the links up with their attributes
         a.textContent = arrayOfSubjects[i];
         a.classList.add('nav-link');
         a.setAttribute('id', 'about-tab');
@@ -46,6 +49,7 @@ const starterPage = () => {
         div.setAttribute('aria-labelledby', 'about-tab');
         break;
       case 2:
+        //   Set the links up with their attributes
         a.textContent = arrayOfSubjects[i];
         a.classList.add('nav-link');
         a.setAttribute('id', 'contact-tab');
@@ -60,17 +64,19 @@ const starterPage = () => {
       default:
         console.log('Sorry, we are out of juicy.');
     }
+
+    // Add to the parent tags
     li.appendChild(a);
     tab.appendChild(li);
     tabContent.appendChild(div);
   }
 
   // Add to h1
-  title.textContent = 'Ceviches & Beers';
+  title.textContent = 'Food Porn';
   title.classList.add('display-1', 'text-center');
 
   // Add to h4
-  subTitle.textContent = 'A place for your Heart and Mind';
+  subTitle.textContent = 'Oh my! Check these foods out!';
   subTitle.classList.add('display-4', 'text-center');
 
   //   Add to ul
@@ -82,6 +88,7 @@ const starterPage = () => {
   tabContent.setAttribute('class', 'tab-content');
   tabContent.setAttribute('id', 'myTabContent');
 
+  //   Add to the main container
   content.appendChild(title);
   content.appendChild(subTitle);
   content.appendChild(tab);
