@@ -1,1 +1,3 @@
-console.log('Hello World!');
+import 'bootstrap';
+import './scss/app.scss';
+// console.log('Hello World!');

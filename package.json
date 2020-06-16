@@ -4,12 +4,25 @@
   "description": "DOM manipulation by dynamically rendering a simple restaurant homepage!",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Seth Zea",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "css-loader": "^3.6.0",
+    "exports-loader": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
