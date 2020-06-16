@@ -1,3 +1,6 @@
 import 'bootstrap';
 import './scss/app.scss';
-// console.log('Hello World!');
+
+import starterPage from './starterPage';
+
+starterPage();
