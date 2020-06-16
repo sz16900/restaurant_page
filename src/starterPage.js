@@ -72,11 +72,11 @@ const starterPage = () => {
   }
 
   // Add to h1
-  title.textContent = 'Food Porn';
+  title.textContent = 'DROOL';
   title.classList.add('display-1', 'text-center');
 
   // Add to h4
-  subTitle.textContent = 'Oh my! Check these foods out!';
+  subTitle.textContent = 'Oh my! Check this food out!';
   subTitle.classList.add('display-4', 'text-center');
 
   //   Add to ul
