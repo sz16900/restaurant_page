@@ -35,6 +35,7 @@ const renderMenu = () => {
   cardColumn.setAttribute('class', 'card-columns');
 
   //   Dynamically generate the inside tags
+  /* eslint-disable */
   for (let i = 0; i < imgArray.length; i += 1) {
     const card = document.createElement('div');
     card.setAttribute('class', 'card');
@@ -57,6 +58,7 @@ const renderMenu = () => {
     card.appendChild(cardBody);
     cardColumn.appendChild(card);
   }
+  /* eslint-enable */
   menu.appendChild(cardColumn);
 };
 
