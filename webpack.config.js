@@ -1,7 +1,4 @@
-import 'autoprefixer';
-
 const path = require('path');
-const req = require('autoprefixer');
 
 module.exports = {
   entry: './src/index.js',
@@ -22,7 +19,7 @@ module.exports = {
         use: ['file-loader'],
       },
       {
-        // Fonts
+        // Font
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: ['file-loader'],
       },
@@ -41,11 +38,13 @@ module.exports = {
           {
             // Loader for webpack to process CSS with PostCSS
             loader: 'postcss-loader',
+            /* eslint-disable */
             options: {
               plugins() {
-                return [req];
+                return [require('autoprefixer')];
               },
             },
+            /* eslint-enable */
           },
           {
             // Loads a SASS/SCSS file and compiles it to CSS
