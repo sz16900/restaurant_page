@@ -30,7 +30,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Elijahscriptdev/tic-tac-toe-javascript/user-interface/index.html)
+[Live Demo Link](https://raw.githack.com/sz16900/restaurant_page/about/dist/index.html)
 
 ---
 
