@@ -62,7 +62,7 @@ const starterPage = () => {
         div.setAttribute('aria-labelledby', 'contact-tab');
         break;
       default:
-        console.log('Sorry, we are out of juicy.');
+      // return true;
     }
 
     // Add to the parent tags

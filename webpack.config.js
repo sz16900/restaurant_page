@@ -1,3 +1,5 @@
+import 'autoprefixer';
+
 const path = require('path');
 const req = require('autoprefixer');
 
