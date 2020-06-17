@@ -73,14 +73,14 @@ const starterPage = () => {
 
   // Add to h1
   title.textContent = 'DROOL';
-  title.classList.add('display-1', 'text-center');
+  title.classList.add('display-1', 'text-center', 'page-title');
 
   // Add to h4
   subTitle.textContent = 'Oh my! Check this food out!';
-  subTitle.classList.add('display-4', 'text-center');
+  subTitle.classList.add('display-4', 'text-center', 'page-subtitle');
 
   //   Add to ul
-  tab.classList.add('nav', 'nav-tabs');
+  tab.classList.add('nav', 'nav-tabs', 'justify-content-center');
   tab.setAttribute('id', 'myTab');
   tab.setAttribute('role', 'tablist');
 

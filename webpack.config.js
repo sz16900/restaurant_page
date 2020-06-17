@@ -1,4 +1,5 @@
 const path = require('path');
+const req = require('autoprefixer');
 
 module.exports = {
   entry: './src/index.js',
@@ -14,10 +15,12 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
+        // Images
         test: /\.(png|svg|jpg|jpeg|gif)$/,
         use: ['file-loader'],
       },
       {
+        // Fonts
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: ['file-loader'],
       },
@@ -38,7 +41,7 @@ module.exports = {
             loader: 'postcss-loader',
             options: {
               plugins() {
-                return [require('autoprefixer')];
+                return [req];
               },
             },
           },
