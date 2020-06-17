@@ -87,7 +87,7 @@ Give a ⭐️ if you like this project!
 ## Future Features
 
 - A better mobile friendly experience
-- User name preservation upon reset
+- More information inside the website
 - Better modularization of objects
 
 ---
