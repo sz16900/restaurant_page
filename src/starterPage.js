@@ -62,7 +62,7 @@ const starterPage = () => {
         div.setAttribute('aria-labelledby', 'contact-tab');
         break;
       default:
-      // return true;
+        return null;
     }
 
     // Add to the parent tags
@@ -93,6 +93,8 @@ const starterPage = () => {
   content.appendChild(subTitle);
   content.appendChild(tab);
   content.appendChild(tabContent);
+
+  return null;
 };
 
 export default starterPage;

@@ -4,7 +4,9 @@
   "description": "DOM manipulation by dynamically rendering a simple restaurant homepage!",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Seth Zea",
