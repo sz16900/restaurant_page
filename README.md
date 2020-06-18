@@ -47,7 +47,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone the project unto your local machine
 - `cd` into the project directory
-- open index.html
+- on the root folder please type: npm run start:dev
+- on your browser, make sure you point to the right address (i.e: http://localhost:8080/)
 
 ### 🤝 Contributing
 
