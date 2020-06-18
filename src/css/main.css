@@ -1,0 +1,21 @@
+.about-text,
+.contact-wrapper {
+  margin: 0 auto;
+  padding: 5em;
+}
+
+.page-title {
+  font-weight: 900;
+}
+
+.page-subtitle {
+  color: #8e8e8e;
+}
+
+.nav {
+  margin: 2em 0;
+}
+
+.p-contact {
+  white-space: pre;
+}
