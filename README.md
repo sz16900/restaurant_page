@@ -1,7 +1,7 @@
 # [Javascript Project: Restaurant Page]
 
-> In this project, I am going to make a simple Javascript restaurant style menu page to demonstrate mastery of bundling javascript modules with webpack.
-> Awesomized with Bootstrap.
+In this project, I am going to make a simple Javascript restaurant style menu page to demonstrate mastery of bundling javascript modules with webpack.
+Awesomized with Bootstrap.
 
 ---
 
